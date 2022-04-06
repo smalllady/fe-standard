@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>编码规范 | 信息中心FE</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="总部信息信息中心前端团队">
+    
+    <link rel="preload" href="/assets/css/0.styles.7cfabf05.css" as="style"><link rel="preload" href="/assets/js/app.d4e59fb9.js" as="script"><link rel="preload" href="/assets/js/2.4ad9e18d.js" as="script"><link rel="preload" href="/assets/js/8.56baf06d.js" as="script"><link rel="prefetch" href="/assets/js/10.e4795b54.js"><link rel="prefetch" href="/assets/js/3.7cac8a64.js"><link rel="prefetch" href="/assets/js/4.e773d5ea.js"><link rel="prefetch" href="/assets/js/5.cebbe01d.js"><link rel="prefetch" href="/assets/js/6.4a0603f6.js"><link rel="prefetch" href="/assets/js/7.d4edc1ca.js"><link rel="prefetch" href="/assets/js/9.04e4daea.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7cfabf05.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">信息中心FE</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/lang.html" class="nav-link">
+  js规范
+</a></li><li class="dropdown-item"><!----> <a href="/vue/" class="nav-link">
+  vue规范
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分类" class="dropdown-title"><span class="title">分类</span> <span class="arrow down"></span></button> <button type="button" aria-label="分类" class="mobile-dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/lang.html" class="nav-link">
+  js规范
+</a></li><li class="dropdown-item"><!----> <a href="/vue/" class="nav-link">
+  vue规范
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>js</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/js/lang.html" class="sidebar-link">语言规范</a></li><li><a href="/js/" aria-current="page" class="active sidebar-link">代码规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/js/#编码规范" class="sidebar-link">编码规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/js/#单行代码块" class="sidebar-link">单行代码块</a></li><li class="sidebar-sub-header"><a href="/js/#大括号风格" class="sidebar-link">大括号风格</a></li><li class="sidebar-sub-header"><a href="/js/#变量命名" class="sidebar-link">变量命名</a></li><li class="sidebar-sub-header"><a href="/js/#拖尾逗号" class="sidebar-link">拖尾逗号</a></li><li class="sidebar-sub-header"><a href="/js/#逗号空格" class="sidebar-link">逗号空格</a></li><li class="sidebar-sub-header"><a href="/js/#逗号风格" class="sidebar-link">逗号风格</a></li><li class="sidebar-sub-header"><a href="/js/#计算属性的空格" class="sidebar-link">计算属性的空格</a></li><li class="sidebar-sub-header"><a href="/js/#拖尾换行" class="sidebar-link">拖尾换行</a></li><li class="sidebar-sub-header"><a href="/js/#函数调用" class="sidebar-link">函数调用</a></li><li class="sidebar-sub-header"><a href="/js/#缩进" class="sidebar-link">缩进</a></li><li class="sidebar-sub-header"><a href="/js/#对象字面量的键值缩进" class="sidebar-link">对象字面量的键值缩进</a></li><li class="sidebar-sub-header"><a href="/js/#构造函数首字母大写" class="sidebar-link">构造函数首字母大写</a></li><li class="sidebar-sub-header"><a href="/js/#构造函数的参数" class="sidebar-link">构造函数的参数</a></li><li class="sidebar-sub-header"><a href="/js/#链式调用" class="sidebar-link">链式调用</a></li><li class="sidebar-sub-header"><a href="/js/#空行" class="sidebar-link">空行</a></li><li class="sidebar-sub-header"><a href="/js/#链式赋值" class="sidebar-link">链式赋值</a></li><li class="sidebar-sub-header"><a href="/js/#变量声明" class="sidebar-link">变量声明</a></li><li class="sidebar-sub-header"><a href="/js/#代码块空格" class="sidebar-link">代码块空格</a></li><li class="sidebar-sub-header"><a href="/js/#操作符的空格" class="sidebar-link">操作符的空格</a></li><li class="sidebar-sub-header"><a href="/js/#注释" class="sidebar-link">注释</a></li><li class="sidebar-sub-header"><a href="/js/#dom" class="sidebar-link">DOM</a></li></ul></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="编码规范"><a href="#编码规范" class="header-anchor">#</a> 编码规范</h2> <p>统一团队的编码规范，有助于代码的维护,目的是统一一些相对主观化的代码风格。</p> <h3 id="单行代码块"><a href="#单行代码块" class="header-anchor">#</a> 单行代码块</h3> <p>在单行代码块中使用空格</p> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">foo</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">}</span>
+ <span class="token keyword">if</span> <span class="token punctuation">(</span>foo<span class="token punctuation">)</span> <span class="token punctuation">{</span>bar <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">foo</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token boolean">true</span> <span class="token punctuation">}</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span>foo<span class="token punctuation">)</span> <span class="token punctuation">{</span> bar <span class="token operator">=</span> <span class="token number">0</span> <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="大括号风格"><a href="#大括号风格" class="header-anchor">#</a> 大括号风格</h3> <p>在编程过程中，大括号风格与缩进风格紧密联系，用来描述大括号相对代码块位置的方法有很多。在 JavaScript 中，主要有三种风格，如下：</p> <ul><li>One True Brace Style</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>foo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token function">baz</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>Stroustrup</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>foo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token function">baz</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>Allman</li></ul> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>foo<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+  <span class="token function">bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">else</span>
+<span class="token punctuation">{</span>
+  <span class="token function">baz</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><blockquote><p>我们团队约定使用 第一种： <em>One True Brace Style</em> 风格</p></blockquote> <h3 id="变量命名"><a href="#变量命名" class="header-anchor">#</a> 变量命名</h3> <p>当命名变量时，主流分为驼峰式命名（constiableName）和下划线命名（constiable_name）两大阵营。</p> <blockquote><p>团队约定使用驼峰式命名</p></blockquote> <h3 id="拖尾逗号"><a href="#拖尾逗号" class="header-anchor">#</a> 拖尾逗号</h3> <p>在 ECMAScript5 里面，对象字面量中的拖尾逗号是合法的，但在 IE8（非 IE8 文档模式）下，当出现拖尾逗号，则会抛出错误。</p> <p>拖尾逗号的例子：</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'foo'</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token string">'22'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>拖尾逗号的好处是，简化了对象和数组添加或删除元素，我们只需要修改新增的行即可，并不会增加差异化的代码行数。</p> <blockquote><p>因为拖尾逗号有好也有不好，所以团队约定允许在最后一个元素或属性与闭括号 ] 或 } 在不同行时，可以（但不要求）使用拖尾逗号。当在同一行时，禁止使用拖尾逗号。</p></blockquote> <h3 id="逗号空格"><a href="#逗号空格" class="header-anchor">#</a> 逗号空格</h3> <p>逗号前后的空格可以提高代码的可读性，团队约定在逗号后面使用空格，逗号前面不加空格。</p> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>bar <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span> <span class="token punctuation">,</span> bar <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span> <span class="token punctuation">,</span>bar <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> bar <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="逗号风格"><a href="#逗号风格" class="header-anchor">#</a> 逗号风格</h3> <p>逗号分隔列表时，在 JavaScript 中主要有两种逗号风格：</p> <ul><li>标准风格，逗号放置在当前行的末尾</li> <li>逗号前置风格，逗号放置在下一行的开始位置</li></ul> <blockquote><p>团队约定使用标准风格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token punctuation">,</span>
+bar <span class="token operator">=</span> <span class="token number">2</span>
+
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token punctuation">,</span> bar <span class="token operator">=</span> <span class="token number">2</span>
+
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'name'</span>
+          <span class="token punctuation">,</span> <span class="token string">'age'</span><span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    bar <span class="token operator">=</span> <span class="token number">2</span>
+
+<span class="token keyword">const</span> foo <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">,</span>
+            <span class="token string">'age'</span><span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="计算属性的空格"><a href="#计算属性的空格" class="header-anchor">#</a> 计算属性的空格</h3> <blockquote><p>团队约定在对象的计算属性内，禁止使用空格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>obj<span class="token punctuation">[</span><span class="token string">'foo'</span> <span class="token punctuation">]</span>
+obj<span class="token punctuation">[</span> <span class="token string">'foo'</span><span class="token punctuation">]</span>
+obj<span class="token punctuation">[</span> <span class="token string">'foo'</span> <span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code>obj<span class="token punctuation">[</span><span class="token string">'foo'</span><span class="token punctuation">]</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="拖尾换行"><a href="#拖尾换行" class="header-anchor">#</a> 拖尾换行</h3> <p>在非空文件中，存在拖尾换行是一个常见的 UNIX 风格，它的好处是可以方便在串联和追加文件时不会打断 Shell 的提示。在日常的项目中，保留拖尾换行的好处是，可以减少版本控制时的代码冲突。</p> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">func</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// do something</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">func</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// do something</span>
+<span class="token punctuation">}</span>
+  <span class="token comment">// 此处是新的一行</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><blockquote><p>可以通过 .editorconfig 添加 EOL</p></blockquote> <h3 id="函数调用"><a href="#函数调用" class="header-anchor">#</a> 函数调用</h3> <blockquote><p>为了避免语法错误，团队约定在函数调用时，禁止使用空格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">fn</span> <span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">fn</span>
+<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token function">fn</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="缩进"><a href="#缩进" class="header-anchor">#</a> 缩进</h3> <blockquote><p>代码保持一致的缩进,但缩进用两个空格，还是四个空格，是用 Tab 还是空格呢？这样的争论太多了，也得不出答案。结合一些优秀的开源项目，我们约定使用空格来缩进，而且缩进使用两个空格。我们可以通过配置 .editorconfig ，将 Tab 自动转换为空格。</p></blockquote> <h3 id="对象字面量的键值缩进"><a href="#对象字面量的键值缩进" class="header-anchor">#</a> 对象字面量的键值缩进</h3> <blockquote><p>团队约定对象字面量的键和值之间不能存在空格，且要求对象字面量的冒号和值之间存在一个空格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token string-property property">'foo'</span> <span class="token operator">:</span> <span class="token string">'haha'</span> <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token string-property property">'foo'</span><span class="token operator">:</span> <span class="token string">'haha'</span> <span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="构造函数首字母大写"><a href="#构造函数首字母大写" class="header-anchor">#</a> 构造函数首字母大写</h3> <p>在 JavaScript 中 new 操作符用来创建某个特定类型的对象的一个实例，该类型的对象是由一个构造函数表示的。由于构造函数只是常规函数，唯一区别是使用 new 来调用。</p> <blockquote><p>所以我们团队约定构造函数的首字母要大小，以此来区分构造函数和普通函数。</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> fooItem <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> fooItem <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="构造函数的参数"><a href="#构造函数的参数" class="header-anchor">#</a> 构造函数的参数</h3> <p>在 JavaScript 中，通过 new 调用构造函数时，如果不带参数，可以省略后面的圆括号。但这样会造成与整体的代码风格不一致，所以团队约定使用圆括号</p> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> person <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> person <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Person</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="链式调用"><a href="#链式调用" class="header-anchor">#</a> 链式调用</h3> <p>链式调用如果放在同一行，往往会造成代码的可读性差，但有些时候，短的链式调用并不会影响美观。</p> <blockquote><p>所以本规范约定一行最多只能有四个链式调用，超过就要求换行。</p></blockquote> <h3 id="空行"><a href="#空行" class="header-anchor">#</a> 空行</h3> <blockquote><p>空白行对于分离代码逻辑有帮助，但过多的空行会占据屏幕的空间，影响可读性。团队约定最大连续空行数为 2</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token number">1</span>
+
+
+
+<span class="token keyword">const</span> b <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token number">1</span>
+
+
+<span class="token keyword">const</span> b <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="链式赋值"><a href="#链式赋值" class="header-anchor">#</a> 链式赋值</h3> <p>链式赋值容易造成代码的可读性差，</p> <blockquote><p>所以团队约定禁止使用链式赋值</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a <span class="token operator">=</span> b <span class="token operator">=</span> c <span class="token operator">=</span> <span class="token number">1</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token keyword">const</span> b <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token keyword">const</span> c <span class="token operator">=</span> <span class="token number">1</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="变量声明"><a href="#变量声明" class="header-anchor">#</a> 变量声明</h3> <p>JavaScript 允许在一个声明中，声明多个变量。</p> <blockquote><p>团队约定在声明变量时，一个声明只能有一个变量</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> a
+<span class="token keyword">const</span> b
+<span class="token keyword">const</span> c
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="代码块空格"><a href="#代码块空格" class="header-anchor">#</a> 代码块空格</h3> <p>一致性是任何风格指南的重要组成部分。虽然在哪里放置块的开括号纯属个人偏好，但在整个项目中应该保持一致。不一致的风格将会分散读者阅读代码的注意力。</p> <blockquote><p>团队约定代码块前要添加空格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">a</span> <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">b</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">a</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="操作符的空格"><a href="#操作符的空格" class="header-anchor">#</a> 操作符的空格</h3> <blockquote><p>团队约定操作符前后都需要添加空格</p></blockquote> <p>不推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> sum <span class="token operator">=</span> <span class="token number">1</span><span class="token operator">+</span><span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>推荐</p> <div class="language-js line-numbers-mode"><pre class="language-js"><code><span class="token keyword">const</span> sum <span class="token operator">=</span> <span class="token number">1</span> <span class="token operator">+</span> <span class="token number">2</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="注释"><a href="#注释" class="header-anchor">#</a> 注释</h3> <h4 id="单行注释"><a href="#单行注释" class="header-anchor">#</a> 单行注释</h4> <blockquote><p>[强制] 必须独占一行。<code>//</code> 后跟一个空格，缩进与下一行被注释说明的代码一致。</p></blockquote> <h4 id="多行注释"><a href="#多行注释" class="header-anchor">#</a> 多行注释</h4> <blockquote><p>[建议] 避免使用 <code>/*...*/</code> 这样的多行注释。有多行注释内容时，使用多个单行注释。</p></blockquote> <h4 id="文档化注释"><a href="#文档化注释" class="header-anchor">#</a> 文档化注释</h4> <blockquote><p>[强制] 为了便于代码阅读和自文档化，以下内容必须包含以 <code>/**...*/</code> 形式的块注释中。</p></blockquote> <ol><li>文件</li> <li>namespace</li> <li>类</li> <li>函数或方法</li> <li>类属性</li> <li>事件</li> <li>全局变量</li> <li>常量</li> <li>AMD 模块</li></ol> <blockquote><p>[强制] 文档注释前必须空一行。</p></blockquote> <blockquote><p>[建议] 自文档化的文档说明 what，而不是 how。</p></blockquote> <h4 id="文件注释"><a href="#文件注释" class="header-anchor">#</a> 文件注释</h4> <blockquote><p>[强制] 文件顶部必须包含文件注释，用 <code>@file</code> 标识文件说明。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * @file Describe the file
+ */</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><blockquote><p>[建议] 文件注释中可以用 <code>@author</code> 标识开发者信息。</p></blockquote> <p>开发者信息能够体现开发人员对文件的贡献，并且能够让遇到问题或希望了解相关信息的人找到维护人。通常情况文件在被创建时标识的是创建者。随着项目的进展，越来越多的人加入，参与这个文件的开发，新的作者应该被加入 <code>@author</code> 标识。</p> <p><code>@author</code> 标识具有多人时，原则是按照 <code>责任</code> 进行排序。通常的说就是如果有问题，就是找第一个人应该比找第二个人有效。比如文件的创建者由于各种原因，模块移交给了其他人或其他团队，后来因为新增需求，其他人在新增代码时，添加 <code>@author</code> 标识应该把自己的名字添加在创建人的前面。</p> <p><code>@author</code> 中的名字不允许被删除。任何劳动成果都应该被尊重。</p> <p>业务项目中，一个文件可能被多人频繁修改，并且每个人的维护时间都可能不会很长，不建议为文件增加 <code>@author</code> 标识。通过版本控制系统追踪变更，按业务逻辑单元确定模块的维护责任人，通过文档与wiki跟踪和查询，是更好的责任管理方式。</p> <p>对于业务逻辑无关的技术型基础项目，特别是开源的公共项目，应使用 <code>@author</code> 标识。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * @file Describe the file
+ * @author author-name(mail-name@domain.com)
+ *         author-name2(mail-name2@domain.com)
+ */</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h4 id="命名空间注释"><a href="#命名空间注释" class="header-anchor">#</a> 命名空间注释</h4> <blockquote><p>[建议] 命名空间使用 <code>@namespace</code> 标识。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * @namespace
+ */</span>
+<span class="token keyword">var</span> util <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="类注释"><a href="#类注释" class="header-anchor">#</a> 类注释</h4> <blockquote><p>[建议] 使用 <code>@class</code> 标记类或构造函数。</p></blockquote> <p>对于使用对象 <code>constructor</code> 属性来定义的构造函数，可以使用 <code>@constructor</code> 来标记。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 描述
+ *
+ * @class
+ */</span>
+<span class="token keyword">function</span> <span class="token function">Developer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// constructor body</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><blockquote><p>[建议] 使用 <code>@extends</code> 标记类的继承信息。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 描述
+ *
+ * @class
+ * @extends Developer
+ */</span>
+<span class="token keyword">function</span> <span class="token function">Fronteer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">Developer</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// constructor body</span>
+<span class="token punctuation">}</span>
+util<span class="token punctuation">.</span><span class="token function">inherits</span><span class="token punctuation">(</span>Fronteer<span class="token punctuation">,</span> Developer<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><blockquote><p>[强制] 使用包装方式扩展类成员时， 必须通过 <code>@lends</code> 进行重新指向。</p></blockquote> <p>没有 <code>@lends</code> 标记将无法为该类生成包含扩展类成员的文档。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 类描述
+ *
+ * @class
+ * @extends Developer
+ */</span>
+<span class="token keyword">function</span> <span class="token function">Fronteer</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">Developer</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// constructor body</span>
+<span class="token punctuation">}</span>
+
+util<span class="token punctuation">.</span><span class="token function">extend</span><span class="token punctuation">(</span>
+    <span class="token class-name">Fronteer</span><span class="token punctuation">.</span>prototype<span class="token punctuation">,</span>
+    <span class="token comment">/** @lends Fronteer.prototype */</span><span class="token punctuation">{</span>
+        <span class="token function-variable function">getLevel</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><blockquote><p>[强制] 类的属性或方法等成员信息不是 <code>public</code> 的，应使用 <code>@protected</code> 或 <code>@private</code> 标识可访问性。</p></blockquote> <p>生成的文档中将有可访问性的标记，避免用户直接使用非 <code>public</code> 的属性或方法。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 类描述
+ *
+ * @class
+ * @extends Developer
+ */</span>
+<span class="token keyword">var</span> <span class="token function-variable function">Fronteer</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">Developer</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/**
+     * 属性描述
+     *
+     * @type {string}
+     * @private
+     */</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>level <span class="token operator">=</span> <span class="token string">'T12'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// constructor body</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+util<span class="token punctuation">.</span><span class="token function">inherits</span><span class="token punctuation">(</span>Fronteer<span class="token punctuation">,</span> Developer<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * 方法描述
+ *
+ * @private
+ * @return {string} 返回值描述
+ */</span>
+<span class="token class-name">Fronteer</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">getLevel</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h4 id="函数-方法注释"><a href="#函数-方法注释" class="header-anchor">#</a> 函数/方法注释</h4> <blockquote><p>[强制] 函数/方法注释必须包含函数说明，有参数和返回值时必须使用注释标识。</p></blockquote> <p>当 <code>return</code> 关键字仅作退出函数/方法使用时，无须对返回值作注释标识。</p> <blockquote><p>[强制] 参数和返回值注释必须包含类型信息，且不允许省略参数的说明。</p></blockquote> <blockquote><p>[建议] 当函数是内部函数，外部不可访问时，可以使用 <code>@inner</code> 标识。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 函数描述
+ *
+ * @param {string} p1 参数1的说明
+ * @param {string} p2 参数2的说明，比较长
+ *     那就换行了.
+ * @param {number=} p3 参数3的说明（可选）
+ * @return {Object} 返回值描述
+ */</span>
+<span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> p3 <span class="token operator">=</span> p3 <span class="token operator">||</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">p1</span><span class="token operator">:</span> p1<span class="token punctuation">,</span>
+        <span class="token literal-property property">p2</span><span class="token operator">:</span> p2<span class="token punctuation">,</span>
+        <span class="token literal-property property">p3</span><span class="token operator">:</span> p3
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><blockquote><p>[强制] 对 Object 中各项的描述， 必须使用 <code>@param</code> 标识。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 函数描述
+ *
+ * @param {Object} option 参数描述
+ * @param {string} option.url option项描述
+ * @param {string=} option.method option项描述，可选参数
+ */</span>
+<span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">option</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// TODO</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><blockquote><p>[建议] 重写父类方法时， 应当添加 <code>@override</code> 标识。如果重写的形参个数、类型、顺序和返回值类型均未发生变化，可省略 <code>@param</code>、<code>@return</code>，仅用 <code>@override</code> 标识，否则仍应作完整注释。</p></blockquote> <p>简而言之，当子类重写的方法能直接套用父类的方法注释时可省略对参数与返回值的注释。</p> <h4 id="事件注释"><a href="#事件注释" class="header-anchor">#</a> 事件注释</h4> <blockquote><p>[强制] 必须使用 <code>@event</code> 标识事件，事件参数的标识与方法描述的参数标识相同。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 值变更时触发
+ *
+ * @event Select#change
+ * @param {Object} e e描述
+ * @param {string} e.before before描述
+ * @param {string} e.after after描述
+ */</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">fire</span><span class="token punctuation">(</span>
+    <span class="token string">'change'</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token literal-property property">before</span><span class="token operator">:</span> <span class="token string">'foo'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">after</span><span class="token operator">:</span> <span class="token string">'bar'</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><blockquote><p>[强制] 在会广播事件的函数前使用 <code>@fires</code> 标识广播的事件，在广播事件代码前使用 <code>@event</code> 标识事件。</p></blockquote> <blockquote><p>[建议] 对于事件对象的注释，使用 <code>@param</code> 标识，生成文档时可读性更好。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 点击处理
+ *
+ * @fires Select#change
+ * @private
+ */</span>
+<span class="token class-name">Select</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">clickHandler</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token comment">/**
+     * 值变更时触发
+     *
+     * @event Select#change
+     * @param {Object} e e描述
+     * @param {string} e.before before描述
+     * @param {string} e.after after描述
+     */</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">fire</span><span class="token punctuation">(</span>
+        <span class="token string">'change'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token literal-property property">before</span><span class="token operator">:</span> <span class="token string">'foo'</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">after</span><span class="token operator">:</span> <span class="token string">'bar'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h4 id="常量注释"><a href="#常量注释" class="header-anchor">#</a> 常量注释</h4> <blockquote><p>[强制] 常量必须使用 <code>@const</code> 标记，并包含说明和类型信息。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 常量说明
+ *
+ * @const
+ * @type {string}
+ */</span>
+<span class="token keyword">var</span> <span class="token constant">REQUEST_URL</span> <span class="token operator">=</span> <span class="token string">'myurl.do'</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h4 id="复杂类型注释"><a href="#复杂类型注释" class="header-anchor">#</a> 复杂类型注释</h4> <blockquote><p>[建议] 对于类型未定义的复杂结构的注释，可以使用 <code>@typedef</code> 标识来定义。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// `namespaceA~` 可以换成其它 namepaths 前缀，目的是为了生成文档中能显示 `@typedef` 定义的类型和链接。</span>
+<span class="token comment">/**
+ * 服务器
+ *
+ * @typedef {Object} namespaceA~Server
+ * @property {string} host 主机
+ * @property {number} port 端口
+ */</span>
+
+<span class="token comment">/**
+ * 服务器列表
+ *
+ * @type {Array.&lt;namespaceA~Server&gt;}
+ */</span>
+<span class="token keyword">var</span> servers <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token literal-property property">host</span><span class="token operator">:</span> <span class="token string">'1.2.3.4'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">port</span><span class="token operator">:</span> <span class="token number">8080</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token literal-property property">host</span><span class="token operator">:</span> <span class="token string">'1.2.3.5'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">port</span><span class="token operator">:</span> <span class="token number">8081</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h4 id="amd-模块注释"><a href="#amd-模块注释" class="header-anchor">#</a> AMD 模块注释</h4> <blockquote><p>[强制] AMD 模块使用 <code>@module</code> 或 <code>@exports</code> 标识。</p></blockquote> <p>@exports 与 @module 都可以用来标识模块，区别在于 @module 可以省略模块名称。而只使用 @exports 时在 namepaths 中可以省略 module: 前缀。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token function">define</span><span class="token punctuation">(</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">require</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">/**
+         * foo description
+         *
+         * @exports Foo
+         */</span>
+        <span class="token keyword">var</span> foo <span class="token operator">=</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token comment">/**
+         * baz description
+         *
+         * @return {boolean} return description
+         */</span>
+        foo<span class="token punctuation">.</span><span class="token function-variable function">baz</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> foo<span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>也可以在 exports 变量前使用 @module 标识：</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token function">define</span><span class="token punctuation">(</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">require</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">/**
+         * module description.
+         *
+         * @module foo
+         */</span>
+        <span class="token keyword">var</span> exports <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+
+        <span class="token comment">/**
+         * bar description
+         *
+         */</span>
+        exports<span class="token punctuation">.</span><span class="token function-variable function">bar</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> exports<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>如果直接使用 factory 的 exports 参数，还可以：</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * module description.
+ *
+ * @module
+ */</span>
+<span class="token function">define</span><span class="token punctuation">(</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">require<span class="token punctuation">,</span> exports</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">/**
+         * bar description
+         *
+         */</span>
+        exports<span class="token punctuation">.</span><span class="token function-variable function">bar</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> exports<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><blockquote><p>[强制] 对于已使用 <code>@module</code> 标识为 AMD模块 的引用，在 <code>namepaths</code> 中必须增加 <code>module:</code> 作前缀。</p></blockquote> <p>namepaths 没有 module: 前缀时，生成的文档中将无法正确生成链接。</p> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * 点击处理
+ *
+ * @fires module:Select#change
+ * @private
+ */</span>
+<span class="token class-name">Select</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">clickHandler</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">/**
+     * 值变更时触发
+     *
+     * @event module:Select#change
+     * @param {Object} e e描述
+     * @param {string} e.before before描述
+     * @param {string} e.after after描述
+     */</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">fire</span><span class="token punctuation">(</span>
+        <span class="token string">'change'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            <span class="token literal-property property">before</span><span class="token operator">:</span> <span class="token string">'foo'</span><span class="token punctuation">,</span>
+            <span class="token literal-property property">after</span><span class="token operator">:</span> <span class="token string">'bar'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><blockquote><p>[建议] 对于类定义的模块，可以使用 <code>@alias</code> 标识构建函数。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">/**
+ * A module representing a jacket.
+ * @module jacket
+ */</span>
+<span class="token function">define</span><span class="token punctuation">(</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        <span class="token comment">/**
+         * @class
+         * @alias module:jacket
+         */</span>
+        <span class="token keyword">var</span> <span class="token function-variable function">Jacket</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> Jacket<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><blockquote><p>[建议] 多模块定义时，可以使用 <code>@exports</code> 标识各个模块。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// one module</span>
+<span class="token function">define</span><span class="token punctuation">(</span><span class="token string">'html/utils'</span><span class="token punctuation">,</span>
+    <span class="token comment">/**
+     * Utility functions to ease working with DOM elements.
+     * @exports html/utils
+     */</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">var</span> exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> exports<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// another module</span>
+<span class="token function">define</span><span class="token punctuation">(</span><span class="token string">'tag'</span><span class="token punctuation">,</span>
+    <span class="token comment">/** @exports tag */</span>
+    <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">var</span> exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">return</span> exports<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><blockquote><p>[建议] 对于 exports 为 Object 的模块，可以使用<code>@namespace</code>标识。</p></blockquote> <p>使用 @namespace 而不是 @module 或 @exports 时，对模块的引用可以省略 module: 前缀。</p> <blockquote><p>[建议] 对于 exports 为类名的模块，使用 <code>@class</code> 和 <code>@exports</code> 标识。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code>
+<span class="token comment">// 只使用 @class Bar 时，类方法和属性都必须增加 @name Bar#methodName 来标识，与 @exports 配合可以免除这一麻烦，并且在引用时可以省去 module: 前缀。</span>
+<span class="token comment">// 另外需要注意类名需要使用 var 定义的方式。</span>
+
+<span class="token comment">/**
+ * Bar description
+ *
+ * @see foo
+ * @exports  Bar
+ * @class
+ */</span>
+<span class="token keyword">var</span> <span class="token function-variable function">Bar</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// TODO</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">/**
+ * baz description
+ *
+ * @return {(string|Array)} return description
+ */</span>
+<span class="token class-name">Bar</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">baz</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// TODO</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><h4 id="细节注释"><a href="#细节注释" class="header-anchor">#</a> 细节注释</h4> <p>对于内部实现、不容易理解的逻辑说明、摘要信息等，我们可能需要编写细节注释。</p> <blockquote><p>[建议] 细节注释遵循单行注释的格式。说明必须换行时，每行是一个单行注释的起始。</p></blockquote> <div class="language-javascript line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token parameter">p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> opt_p3</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 这里对具体内部逻辑进行说明</span>
+    <span class="token comment">// 说明太长需要换行</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token operator">...</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span><span class="token punctuation">.</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><blockquote><p>[强制] 有时我们会使用一些特殊标记进行说明。特殊标记必须使用单行注释的形式。下面列举了一些常用标记：</p></blockquote> <ul><li>TODO: 有功能待实现。此时需要对将要实现的功能进行简单说明。</li> <li>FIXME: 该处代码运行没问题，但可能由于时间赶或者其他原因，需要修正。此时需要对如何修正进行简单说明。</li> <li>HACK: 为修正某些问题而写的不太好或者使用了某些诡异手段的代码。此时需要对思路或诡异手段进行描述。</li> <li>XXX: 该处存在陷阱。此时需要对陷阱进行描述。</li></ul> <h3 id="dom"><a href="#dom" class="header-anchor">#</a> DOM</h3> <h4 id="元素获取"><a href="#元素获取" class="header-anchor">#</a> 元素获取</h4> <blockquote><p>[建议] 对于单个元素，尽可能使用 <code>document.getElementById</code> 获取，避免使用<code>document.all</code>。</p></blockquote> <blockquote><p>[建议] 对于多个元素的集合，尽可能使用 <code>context.getElementsByTagName</code> 获取。其中 <code>context</code> 可以为 <code>document</code> 或其他元素。指定 <code>tagName</code> 参数为 <code>*</code> 可以获得所有子元素。</p></blockquote> <blockquote><p>[建议] 遍历元素集合时，尽量缓存集合长度。如需多次操作同一集合，则应将集合转为数组。</p></blockquote> <p>原生获取元素集合的结果并不直接引用 DOM 元素，而是对索引进行读取，所以 DOM 结构的改变会实时反映到结果中。</p> <div class="language-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">var</span> elements <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementsByTagName</span><span class="token punctuation">(</span><span class="token string">'*'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 显示为 DIV</span>
+<span class="token function">alert</span><span class="token punctuation">(</span>elements<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>tagName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">var</span> div <span class="token operator">=</span> elements<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> p <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+docpment<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">insertBefore</span><span class="token punctuation">(</span>p<span class="token punctuation">,</span> div<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 显示为 P</span>
+<span class="token function">alert</span><span class="token punctuation">(</span>elements<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>tagName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><blockquote><p>[建议] 获取元素的直接子元素时使用 <code>children</code>。避免使用<code>childNodes</code>，除非预期是需要包含文本、注释和属性类型的节点。</p></blockquote> <h4 id="样式获取"><a href="#样式获取" class="header-anchor">#</a> 样式获取</h4> <blockquote><p>[建议] 获取元素实际样式信息时，应使用 <code>getComputedStyle</code> 或 <code>currentStyle</code>。</p></blockquote> <p>通过 style 只能获得内联定义或通过 JavaScript 直接设置的样式。通过 CSS class 设置的元素样式无法直接通过 style 获取。</p> <h4 id="样式设置"><a href="#样式设置" class="header-anchor">#</a> 样式设置</h4> <blockquote><p>[建议] 尽可能通过为元素添加预定义的 className 来改变元素样式，避免直接操作 style 设置。</p></blockquote> <blockquote><p>[强制] 通过 style 对象设置元素样式时，对于带单位非 0 值的属性，不允许省略单位。</p></blockquote> <p>除了 IE，标准浏览器会忽略不规范的属性值，导致兼容性问题。</p> <h4 id="dom-操作"><a href="#dom-操作" class="header-anchor">#</a> DOM 操作</h4> <blockquote><p>[建议] 操作 <code>DOM</code> 时，尽量减少页面 <code>reflow</code>。</p></blockquote> <p>页面 reflow 是非常耗时的行为，非常容易导致性能瓶颈。下面一些场景会触发浏览器的reflow：</p> <ul><li>DOM元素的添加、修改（内容）、删除。</li> <li>应用新的样式或者修改任何影响元素布局的属性。</li> <li>Resize浏览器窗口、滚动页面。</li> <li>读取元素的某些属性（offsetLeft、offsetTop、offsetHeight、offsetWidth、scrollTop/Left/Width/Height、clientTop/Left/Width/Height、getComputedStyle()、currentStyle(in IE)) 。</li></ul> <blockquote><p>[建议] 尽量减少 <code>DOM</code> 操作。</p></blockquote> <p>DOM 操作也是非常耗时的一种操作，减少 DOM 操作有助于提高性能。举一个简单的例子，构建一个列表。我们可以用两种方式：</p> <ol><li>在循环体中 createElement 并 append 到父元素中。</li> <li>在循环体中拼接 HTML 字符串，循环结束后写父元素的 innerHTML。</li></ol> <p>第一种方法看起来比较标准，但是每次循环都会对 DOM 进行操作，性能极低。在这里推荐使用第二种方法。</p> <h4 id="dom-事件"><a href="#dom-事件" class="header-anchor">#</a> DOM 事件</h4> <blockquote><p>[建议] 优先使用 <code>addEventListener / attachEvent</code> 绑定事件，避免直接在 HTML 属性中或 DOM 的 <code>expando</code> 属性绑定事件处理。</p></blockquote> <p>expando 属性绑定事件容易导致互相覆盖。</p> <blockquote><p>[建议] 使用 <code>addEventListener</code> 时第三个参数使用 <code>false</code>。</p></blockquote> <p>标准浏览器中的 addEventListener 可以通过第三个参数指定两种时间触发模型：冒泡和捕获。而 IE 的 attachEvent 仅支持冒泡的事件触发。所以为了保持一致性，通常 addEventListener 的第三个参数都为 false。</p> <blockquote><p>[建议] 在没有事件自动管理的框架支持下，应持有监听器函数的引用，在适当时候（元素释放、页面卸载等）移除添加的监听器。</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/js/lang.html" class="prev">
+        语言规范
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d4e59fb9.js" defer></script><script src="/assets/js/2.4ad9e18d.js" defer></script><script src="/assets/js/8.56baf06d.js" defer></script>
+  </body>
+</html>
